@@ -17,7 +17,7 @@ public class CofeNew {
 //        myThread1 myThread2 = new myThread1(2);
 //        myThread2.start();
         // TODO code application logic here
-        String ACCESS_TOKEN = "KalC9BCt3VAAAAAAAAABwwRN7lncK5br5qwwvGTj5NFZo3MWNTU7-n_itkuUlsCV";
+        String ACCESS_TOKEN = "**************************************************";
         DbxRequestConfig config = DbxRequestConfig.newBuilder("dropbox/java-tutorial").build();
         DbxClientV2 client = new DbxClientV2(config, ACCESS_TOKEN);
 
